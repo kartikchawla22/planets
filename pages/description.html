@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Assets/CSS/styles.css">
+    <script src="../Assets/JS/index.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kartik Chawla</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planet-images.html">Images</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="description.html">Information</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-dark main-content">
+        <h3 class="text-white">
+            Few More details about the planets in our solar system
+        </h3>
+        <div class="accordion" id="planets">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="planetMercury">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mercury"
+                        aria-expanded="true" aria-controls="mercury">
+                        Mercury
+                    </button>
+                </h2>
+                <div id="mercury" class="accordion-collapse collapse show" aria-labelledby="planetMercury"
+                    data-bs-parent="#planets">
+                    <div class="accordion-body">
+                        Mercury is the closest planet to the Sun and is the smallest of the eight planets being only
+                        slightly larger than our moon. Mercury’s surface temperatures vary in extremes reaching day
+                        temperatures as high as 800°F (430°C) and dipping as low as -290°F (-180°C), lacking the
+                        atmosphere to hold the heat at night.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="planetVenus">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#venus" aria-expanded="false" aria-controls="venus">
+                        Venus
+                    </button>
+                </h2>
+                <div id="venus" class="accordion-collapse collapse" aria-labelledby="planetVenus"
+                    data-bs-parent="#planets">
+                    <div class="accordion-body">
+                        Venus is the second planet from the Sun and is the second-brightest natural object in Earth’s
+                        night sky after the Moon. It is similar to Earth in size and mass and is known as Earth’s sister
+                        or twin planet. Venus’ rotation period of 243 Earth days is slower than any other planet and is
+                        one of two planets to rotate in the opposite direction (east to west).
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="planetEarth">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#earth" aria-expanded="false" aria-controls="earth">
+                        Earth
+                    </button>
+                </h2>
+                <div id="earth" class="accordion-collapse collapse" aria-labelledby="planetEarth"
+                    data-bs-parent="#planets">
+                    <div class="accordion-body">
+                        Earth is the third planet from the Sun and it is the fifth-largest planet. Earth’s orbit around
+                        the Sun is 365.25 days, rotating on a tilted axis which is responsible for the four seasons.
+                        Earth’s gravity interacts with the Moon, it’s only natural satellite, helping to stabilize
+                        Earth’s axis orientation and slows its rotation causing tides.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="planetMars">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mars" aria-expanded="false" aria-controls="mars">
+                        Mars
+                    </button>
+                </h2>
+                <div id="mars" class="accordion-collapse collapse" aria-labelledby="planetMars"
+                    data-bs-parent="#planets">
+                    <div class="accordion-body">
+                        Mars is the fourth planet from the Sun, known as the Red Planet from iron oxide (rust) in the
+                        soil. Mars is home to the highest known mountain and largest canyon and polar ice caps in both
+                        hemispheres that remain frozen year-round.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="planetJupiter">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#jupiter" aria-expanded="false" aria-controls="jupiter">
+                        Jupiter
+                    </button>
+                </h2>
+                <div id="jupiter" class="accordion-collapse collapse" aria-labelledby="planetJupiter"
+                    data-bs-parent="#planets">
+                    <div class="accordion-body">
+                        Jupiter is the fifth planet from the Sun, the largest planet in our solar system and one of the
+                        brightest objects visible to the naked eye. It is composed mostly of hydrogen and helium with
+                        other trace gases. The outer atmosphere and internal heat have created cloud bands and the Great
+                        Red Spot – a giant storm that has lasted more than 300 years. Jupiter also has three faint rings
+                        that surround the planet.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="planetSaturn">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#saturn" aria-expanded="false" aria-controls="saturn">
+                        Saturn
+                    </button>
+                </h2>
+                <div id="saturn" class="accordion-collapse collapse" aria-labelledby="planetSaturn"
+                    data-bs-parent="#planets">
+                    <div class="accordion-body">
+                        Saturn, also known as the ringed planet, is the sixth planet from the sun and the second-largest
+                        planet. Saturn is pale yellow in color due to ammonia crystals in its upper atmosphere and
+                        features a prominent ring system made of ice and rock particles that range in size and orbit
+                        speeds. The rings are roughly 20 meters (66ft.) thick and extend from 6,630 to 120,700 km (4,120
+                        to 75,000 mi) from the equator.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="planetUranus">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#uranus" aria-expanded="false" aria-controls="uranus">
+                        Uranus
+                    </button>
+                </h2>
+                <div id="uranus" class="accordion-collapse collapse" aria-labelledby="planetUranus"
+                    data-bs-parent="#planets">
+                    <div class="accordion-body">
+                        Uranus is the seventh planet from the Sun and like Venus, rotates in the opposite direction as
+                        the other planets. Uranus is also the only planet to rotate on a sideways axis, meaning it
+                        rotates on its side with both poles facing east and west.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="planetNeptune">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#neptune" aria-expanded="false" aria-controls="neptune">
+                        Neptune
+                    </button>
+                </h2>
+                <div id="neptune" class="accordion-collapse collapse" aria-labelledby="planetNeptune"
+                    data-bs-parent="#planets">
+                    <div class="accordion-body">
+                        Neptune is the eighth and farthest planet in our solar system. It is the fourth-largest planet
+                        and is similar to Uranus consisting of gases, ices, and has a series of moons and faint rings.
+                        Neptune was also the only planet whose presence was predicted using mathematics before it was
+                        observed visually through a telescope. This prediction was based largely on the changes in the
+                        orbit of Uranus.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark">
+        <span>© Kartik Chawla 2022</span>
+    </footer>
+</body>
+<style>
+    .main-content {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .accordion {
+        width: 90%;
+    }
+</style>
+
+</html>
